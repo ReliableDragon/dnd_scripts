@@ -171,7 +171,7 @@ SAVE: {new_save}
 Arguments: curr_cr, cr, hp, ac, dmg, atk, save
 """
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Determine what DCs to check.')
+    parser = argparse.ArgumentParser(description='Scale a creature\'s CR.')
     parser.add_argument('curr_cr', type=float, help='the desired cr')
     parser.add_argument('cr', type=float, help='the desired cr')
     parser.add_argument('hp', type=int, help='the creature\'s hp')
